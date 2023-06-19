@@ -23,7 +23,7 @@ img{
 
 /* MAIN */
 .main{
-    margin: 30px auto;
+    margin: 25px auto 0;
     max-width: 90%;
     display: grid;
     grid-template-columns: 1.1fr 1fr;
@@ -77,7 +77,7 @@ img{
 }
 
 .footer ul{
-    padding: 30px 50px;
+    padding: 0px 50px 30px;
     display: flex;
     font-size: 2rem;
     gap: 25px;

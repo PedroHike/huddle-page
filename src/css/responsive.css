@@ -1,24 +1,21 @@
-@media (max-width:1400px){
+@media (max-width:1390px){
     .main{
         grid-template-columns: 1fr 1fr;
     }
+
+    .main .texto{
+            padding-top: 0;
+        }
 
     .main .titulo{
         font-size: 4rem;
     }
 
-    .main p{
-        font-size: 1.5rem;
-    }
 }
 
 @media (max-width:960px){
     .main .image{
         min-width: 250px;
-    }
-
-    .main .texto{
-        padding-top: 0;
     }
 
     .main .titulo{
@@ -49,7 +46,7 @@
     }
 
     .main .texto{
-        padding: 20px 0;
+        padding: 20px 0 100px;
     }
 
     .footer{
