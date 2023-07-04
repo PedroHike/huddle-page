@@ -34,7 +34,6 @@
 
 @media (max-width:620px){
     body{
-        background: url(../images/bg-mobile.svg) no-repeat center;
         background-color: var(--dark-color);
     }
 
@@ -46,7 +45,7 @@
     }
 
     .main .texto{
-        padding: 20px 0 100px;
+        padding: 0;
     }
 
     .footer{
@@ -55,17 +54,27 @@
 }
 
 @media (max-width:420px){
+    body{
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-color: var(--dark-color);
+    }
     .header .logo{
-        padding: 20px;
-        width: 100px;
+        padding: 30px;
+        width: 140px;
     }
 
     .main .titulo{
         font-size: 2.5rem;
+        margin-top: 60px;
     }
 
-    .main p{
-        margin: 15px 5px 25px;
+    .texto p{
+        font-size: 1.7rem;
+    }
+
+    .main .btn{
+        font-size: 1.4rem;
+        padding: 15px 80px;
     }
 
     .footer ul{
@@ -73,9 +82,9 @@
     }
 
     .footer a{
-        font-size: 1.4rem;
-        width: 25px;
-        height: 25px;
+        font-size: 1.6rem;
+        width: 30px;
+        height: 30px;
         border: 1px solid;
     }
 

@@ -52,8 +52,7 @@ img{
 
 .main .btn{
     font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     padding: 15px 70px;
     background-color: #fff;
     border-radius: 40px;
@@ -95,5 +94,5 @@ img{
 }
 
 .footer a:hover{
-    color: var(--soft-color);
+    color: hsl(300, 58%, 59%);
 }
